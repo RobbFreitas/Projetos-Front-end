@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/a81368914c.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Validator form page</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="wrapper">
+           
+            <form action="#" class="form-container">
+                <h1>Bem-vindo!</h1>
+                <section class="input-area">
+
+                    <div class="input-form">
+                        <i class="fas fa-user"></i>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <div class="input-form">
+                        <i class="fas fa-lock"></i>
+                        <input type="password" name="password" id="password">
+                    </div>
+
+
+
+                </section>
+                    
+                <div class="divider"></div>
+
+                <section class="validator-area">
+                    <ul>
+                        <li class="active">
+                            <span>
+                                <i class="fas fa-circle"></i>
+                            </span>
+                            Minúscula & maiúscula</li>
+                        <li>
+                            <span>
+                                <i class="fas fa-circle"></i>
+                            </span>
+                            Número (0 - 9)</li>
+                        <li>
+                            <span>
+                                <i class="fas fa-circle"></i>
+                            </span>
+                            Caracteres especiais</li>
+                        <li>
+                            <span>
+                                <i class="fas fa-circle"></i>
+                            </span>
+                            Pelo menos 8 dígitos</li>
+                    </ul>
+
+                </section>
+
+                <input type="submit" value="Criar Conta" class="btn" disabled>
+            </form>
+
+        </div>
+    </div>
+
+
+
+
+    <script src="./app.js"></script>    
+</body>
+</html>     
