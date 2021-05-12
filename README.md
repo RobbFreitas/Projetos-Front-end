@@ -8,3 +8,5 @@ Primeiro projeto do início de estudos sobre Front-end utilizando JavaScript+HTM
 
 
 
+
+Referência para estudo: Canal Sparkbox, instagram @dev.sparkbox.
